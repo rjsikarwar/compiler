@@ -1,0 +1,13 @@
+Terminals = +,*,(,),d
+Non-terminals = S,E,T,F,R,W
+
+Grammar:
+S -> E
+E -> TR
+R -> +TR
+R -> @
+T -> FW
+W -> *FW
+W -> @
+F -> (E)
+F -> d

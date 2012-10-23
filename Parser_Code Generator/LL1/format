@@ -1,0 +1,54 @@
+Non-Terminals:	S S' E
+Terminals:	i e b epsilon $
+Start:	S
+
+S -> i E t S S'
+S' -> e S | epsilon
+E -> b
+
+................. 2nd .....................
+Non-terminals: S E I W P
+Terminals: o i y 0 1 ( ) epsilon $
+Start: S
+
+S -> E
+E -> I | o
+I -> i ( P ) E W
+W -> y E | epsilon
+P -> 0 | 1
+
+...................3rd....................
+Non-terminals: S E T F R W
+Terminals: + * ( ) d epsilon $
+Start: S
+
+S -> E
+E -> T R
+R -> + T R | epsilon
+T -> F W
+W -> * F W | epsilon
+F -> ( E ) | d
+
+.................... 4th ................
+Non-terminals: S E T O M F
+Terminals: + - * ( ) d $
+Start: S
+
+S -> E
+E -> E O T | T
+O -> + | -
+T -> T M F | F
+M -> *
+F -> ( E ) | d
+
+....................5th...................
+Non-terminals: S E T F
+Terminals: + * ( ) d
+Start: S
+
+S -> E
+E -> E + T | T
+T -> T * F | F
+F -> ( E ) | d
+
+

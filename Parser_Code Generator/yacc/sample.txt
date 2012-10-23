@@ -1,0 +1,25 @@
+//comments
+// more comments
+
+void main()
+{
+	int $a;
+	$a = 10;
+	$a = $_a + 10.0123.1;
+	char #abgl,#mjy,#nr;
+	printf("SherLocked");
+	
+	float $x = 103.1234;			//comments
+	
+	 $y = 453.1
+	 $raj = 23;
+	 if($raj<3)if
+	 	printf("raj sikarwar");	
+		
+
+	
+	($a <= 10)if
+		printf("%d" , $a);
+		
+	printf("Quotes missing...");
+}

@@ -1,0 +1,29 @@
+//comments
+// more comments
+
+void main()
+{
+	int a;
+	a = 10;
+	a = _a + 10.0123;
+	char abgl,mjy,nr;
+	printf("SherLocked");
+	
+	float x$#3 = 103.1234.41;			//comments
+	
+	double y = 453.1
+	
+	for(i = 0;i < length;i = i + 1)
+	{
+		do
+		{
+			a = a + 1;
+		}
+		while(m <> 10);
+	}
+	
+	if(a <= 10)
+		printf("%d" , a);
+		
+	printf("Quotes missing...);
+}

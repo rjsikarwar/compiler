@@ -1,0 +1,7 @@
+Non-terminals: S A B
+Terminals: a b $ epsilon
+Start: S
+
+S -> A a A b | B b B a
+A -> epsilon
+B -> epsilon

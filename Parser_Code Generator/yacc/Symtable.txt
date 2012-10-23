@@ -1,0 +1,36 @@
+ S.No.               Token                Type            Position
+--------------------------------------------------------------------------------------------------------
+ 0                      void	             KEYWORD	                 4:4
+ 1                      main	             KEYWORD	                4:10
+ 2                         (	         Parenthesis	4:11,10:8,16:5,17:10,21:2,22:9,24:8
+ 3                         )	         Parenthesis	4:12,10:21,16:12,17:25,21:11,22:18,24:28
+ 4                         {	         Parenthesis	                 5:1
+ 5                       int	             KEYWORD	                 6:4
+ 6                        $a	          IDENTIFIER	6:7,7:3,8:3,21:4,22:17
+ 7                         =	               RELOP	7:5,8:5,12:11,14:6,15:8
+ 8                        10	              NUMBER	           7:8,21:10
+ 9                       $_a	          IDENTIFIER	                 8:9
+ 10                         +	            OPERATOR	                8:11
+ 11                   10.0123	              NUMBER	                8:19
+ 12                         1	              NUMBER	                8:21
+ 13                      char	             KEYWORD	                 9:5
+ 14                     #abgl	          IDENTIFIER	                9:11
+ 15                      #mjy	          IDENTIFIER	                9:15
+ 16                       #nr	          IDENTIFIER	                9:18
+ 17                    printf	             KEYWORD	 10:7,17:9,22:8,24:7
+ 18              "SherLocked"	             LITERAL	               10:20
+ 19                     float	             KEYWORD	                12:6
+ 20                        $x	          IDENTIFIER	                12:9
+ 21                  103.1234	              NUMBER	               12:20
+ 22                        $y	          IDENTIFIER	                14:4
+ 23                     453.1	              NUMBER	               14:12
+ 24                      $raj	          IDENTIFIER	           15:6,16:9
+ 25                        23	              NUMBER	               15:11
+ 26                        if	             KEYWORD	    16:4,16:14,21:13
+ 27                         <	               RELOP	               16:10
+ 28                         3	              NUMBER	               16:11
+ 29            "raj sikarwar"	             LITERAL	               17:24
+ 30                        <=	               RELOP	                21:7
+ 31                      "%d"	             LITERAL	               22:13
+ 32       "Quotes missing..."	             LITERAL	               24:27
+ 33                         }	         Parenthesis	                25:1

@@ -1,0 +1,10 @@
+Non-terminals: S E T F R W
+Terminals: + * ( ) d e epsilon $
+Start: S
+
+S -> E
+E -> T R
+R -> + T R | epsilon
+T -> F W
+W -> * F W | epsilon
+F -> ( E ) | d

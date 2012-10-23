@@ -1,0 +1,5 @@
+*************** LL1 But not SLR *************************
+
+S -> AaAb | BbBa
+A -> epsilon
+B -> epsilon
